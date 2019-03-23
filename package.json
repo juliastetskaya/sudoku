@@ -16,6 +16,9 @@
     "url": "https://github.com/yankouskia/additional_7/issues"
   },
   "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
     "mocha": "^3.2.0"
   },
   "homepage": "https://github.com/yankouskia/additional_7#readme"

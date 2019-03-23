@@ -211,6 +211,7 @@ it('should solveSudoku very hard', () => {
     [0, 0, 7, 3, 0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0, 0, 5, 0, 0]
   ];
+  
   const copy = initial.map(r => [...r]);
   assert.equal(isSolved(initial, solveSudoku(copy)), true);
 });
